@@ -99,3 +99,65 @@
 
 
 // Css Code OF This Game
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(#808080, #232b2b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  height: 800px;
+  width: 800px;
+  border: 8px solid rgb(0, 0, 0);
+  font-size: 50px;
+  text-align: center;
+  line-height: center;
+}
+.row_first {
+  display: flex;
+}
+#div1,
+#div3,
+#div5,
+#div7 {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  text-shadow: 2px 1px white;
+}
+#div2,
+#div4,
+#div6,
+#div8 {
+  height: 100px;
+  width: 100px;
+  background-color: #ffffff;
+  
+}
+.row_Second {
+  display: flex;
+}
+.row_Second #div1,
+#div3,
+#div5,
+#div7 {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+}
+.row_Third,.row_fourth {
+  display: flex;
+}
+.row_five,.row_six,.row_seven,.row_eight{
+  display: flex;
+
+}
+
